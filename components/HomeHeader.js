@@ -4,9 +4,9 @@ import { View, Text } from 'react-native';
 
 function HomeHeader() {
   return (
-    <view>
+    <View>
         <Text>Home</Text>
-    </view>
+    </View>
   )
 }
 
