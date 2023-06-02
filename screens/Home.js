@@ -23,15 +23,14 @@ function Home() {
           bottom:0,
           left:0,
           right:0,
-          backgroundColor: COLORS.white,
           justifyContent: 'center',
           alignItems: 'center',
           zIndex: -1,
           opacity: 0.5,
           borderRadius: 10,
         }}> 
-        <View style={{ height:300, backgroundColor: COLORS.primary }} />
-        <View style={{ flex: 1, backgroundColor: COLORS.white }} />
+          <View style={{ height:300 }} />
+          <View style={{ flex: 1 }} />
         </View>
       </View>
     </SafeAreaView>
